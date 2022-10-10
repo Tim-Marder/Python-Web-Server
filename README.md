@@ -6,6 +6,8 @@
 
 [Provide a short description of your program's functionality, no more than a couple sentences]: #
 Server provides access to the html file and handles incorrect requests with a 404 response.
+Webserver 1 handles one request at a time; Webserver 2 uses a multithreaded approach to handle multiple requests.
+ 
 ### NOTES, KNOWN BUGS, AND/OR INCOMPLETE PARTS
 
 [Add any notes you have here and/or any parts of the project you were not able to complete]: #
