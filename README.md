@@ -5,7 +5,7 @@
 ### SUMMARY
 
 [Provide a short description of your program's functionality, no more than a couple sentences]: #
-Server provides access to the html file and handles incorrect requests with a 404 response.
+Server provides access to the html file and handles incorrect requests with a 404 response. <br>
 Webserver 1 handles one request at a time; Webserver 2 uses a multithreaded approach to handle multiple requests.
  
 ### NOTES, KNOWN BUGS, AND/OR INCOMPLETE PARTS
@@ -15,14 +15,14 @@ Webserver 1 handles one request at a time; Webserver 2 uses a multithreaded appr
 ### REFERENCES
 
 [List any outside resources used]: #
-https://ruslanspivak.com/lsbaws-part1/
-https://media.pearsoncmg.com/bc/abp/cs-resources/products/product.html#student,isbn=0136681557
-https://www.geeksforgeeks.org/socket-programming-multi-threading-python/
+https://ruslanspivak.com/lsbaws-part1/ <br>
+https://media.pearsoncmg.com/bc/abp/cs-resources/products/product.html#student,isbn=0136681557 <br>
+https://www.geeksforgeeks.org/socket-programming-multi-threading-python/ <br>
 
 ### INSTRUCTIONS
 
 [Provide clear and complete step-by-step instructions on how to run and test your project]: #
-1. Take note of the **ip** of your device by going to your machine's command line / terminal and typing `ipconfig`.
+1. Take note of the **ip** of your device by going to your machine's command line / terminal, typing `ipconfig`, and looking at the `IPv4` address.
 2. Take note of the **port** used for the running instance of the web server by checking the source code for the line `serverPort = x` where x is the port.
 3. *cd* into the directory with the web server.
 4. Ensure that the html file you'd like to appear on the web server is in the same directory as the web server source code which start the web server.
