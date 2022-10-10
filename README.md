@@ -11,7 +11,7 @@ Webserver 1 handles one request at a time; Webserver 2 uses a multithreaded appr
 ### NOTES, KNOWN BUGS, AND/OR INCOMPLETE PARTS
 
 [Add any notes you have here and/or any parts of the project you were not able to complete]: #
-As far as we can tell, the web servers themselves work as intended. Sometimes, the multi-threaded server has trouble loading a PDF file upon request, but it's an entirely different problem that we haven't ever come across and doesn't actually reflect the effectiveness of our web servers.
+N/A
 
 ### REFERENCES
 
