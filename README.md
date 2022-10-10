@@ -5,7 +5,7 @@
 ### SUMMARY
 
 [Provide a short description of your program's functionality, no more than a couple sentences]: #
-
+Server provides access to the html file and handles incorrect requests with a 404 response.
 ### NOTES, KNOWN BUGS, AND/OR INCOMPLETE PARTS
 
 [Add any notes you have here and/or any parts of the project you were not able to complete]: #
@@ -13,7 +13,9 @@
 ### REFERENCES
 
 [List any outside resources used]: #
-
+https://ruslanspivak.com/lsbaws-part1/ 
+https://media.pearsoncmg.com/bc/abp/cs-resources/products/product.html#student,isbn=0136681557
+https://www.geeksforgeeks.org/socket-programming-multi-threading-python/
 ### INSTRUCTIONS
 
 [Provide clear and complete step-by-step instructions on how to run and test your project]: #
@@ -26,7 +28,7 @@ By signing my name below and submitting the project, I confirm the above stateme
 
 Submission date:
 
-Team member 1 name:
+Team member 1 name: Josh Gordon
 
-Team member 2 name:
+Team member 2 name: Tim Marder
 
