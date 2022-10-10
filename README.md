@@ -11,6 +11,7 @@ Webserver 1 handles one request at a time; Webserver 2 uses a multithreaded appr
 ### NOTES, KNOWN BUGS, AND/OR INCOMPLETE PARTS
 
 [Add any notes you have here and/or any parts of the project you were not able to complete]: #
+As far as we can tell, the web servers themselves work as intended. Sometimes, the multi-threaded server has trouble loading a PDF file upon request, but it's an entirely different problem that we haven't ever come across and doesn't actually reflect the effectiveness of our web servers.
 
 ### REFERENCES
 
@@ -33,6 +34,7 @@ https://www.geeksforgeeks.org/socket-programming-multi-threading-python/ <br>
 7. Start the web server with `py webserver2.py`.
     - Test the multi-threaded web server by putting `ip:port/filename.pdf` into the URL of 2 or more of client's web browsers. The PDF contrents should be displayed. This tests the multi-threadedness of the web server and the contents should be loaded for the 2+ web browser windows quicker than in a single-threaded web server.
     - Test the returned 404 status code by misspelling the *filename.pdf* in the URL.
+   **Note**: *This would also work with HTML files and any type of files. The reason we used a PDF file to test this is because an HTML file loads really quickly and we wouldn't be able to tell whether or not our multithreadedness truly worked*
 
 ### SUBMISSION
 
