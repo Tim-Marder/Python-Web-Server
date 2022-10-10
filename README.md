@@ -40,7 +40,7 @@ I have done this assignment completely on my own. I have not copied it, nor have
 
 By signing my name below and submitting the project, I confirm the above statement is true and that I have followed the course guidelines and policies.
 
-Submission date:
+Submission date: 10/10/2022
 
 Team member 1 name: Josh Gordon
 
