@@ -21,7 +21,7 @@ while True:
         message = connectionSocket.recv(1024)
 
         filename = message.split()[1]
-        f = open(filename[1:])
+        f = open(filename[1:], errors = "ignore")
         outputdata = f.read()
         f.close()
 
